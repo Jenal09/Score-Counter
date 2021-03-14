@@ -1,2 +1,2 @@
 # Score-Counter
-Scorekeeper is a simple application for tracking player scores in basic turn-based games. It allows you to enter names for a number of players, then submit new point values to add or subtract for those players on their turns.
+Score Counter is a simple Web interface for tracking player scores in basic turn-based games. It allows you to enter scores for each player till the winning score. You can set the winning score and also reset the winning score. Styling is done using Bulma, a CSS framework.
