@@ -10,8 +10,7 @@ const p2 = {
 }
 
 const p3 = {
-    name: 'Denil',
-    lname: 'Parmar',
+    name: 'Denil'
 }
 
 const resetButton = document.querySelector('#reset');
