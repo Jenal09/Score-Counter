@@ -13,6 +13,10 @@ const p3 = {
     name: 'Denil'
 }
 
+const p5 = {
+    
+}
+
 const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 let winningScore = 5;
