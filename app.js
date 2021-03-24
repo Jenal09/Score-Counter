@@ -32,14 +32,11 @@ function updateScores(player, opponent) {
     }
 }
 
-p1.button.addEventListener('click', function () {
-    updateScores(p1, p3)
-})
-p2.button.addEventListener('click', function () {
-    updateScores(p2, p1)
-})
+p1.button.addEventListener('click', () => updateScores(p1, p2));
 
-winningScoreSelect.addEventListener('change', function () {
+p2.button.addEventListener('click', () => updateScores(p1, p2));
+
+winningScoreSelect.addEventListener('change', () => {
     winningScore = parseInt(this.value);
     reset();
 })
