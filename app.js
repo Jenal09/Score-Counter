@@ -9,6 +9,11 @@ const p2 = {
     display: document.querySelector('#p2Display')
 }
 
+const p3 = {
+    name: 'Denil',
+    lname: 'Parmar',
+}
+
 const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 let winningScore = 5;
