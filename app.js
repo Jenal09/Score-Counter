@@ -32,6 +32,13 @@ function updateScores(player, opponent) {
     }
 }
 
+// map
+const testMap = paramArray => paramArray.map(x => x * 2);
+
+//reduce
+const testReduce = (paramArray) => paramArray.reduce((curr, next) => curr + next);
+
+
 p1.button.addEventListener('click', () => updateScores(p1, p2));
 
 p2.button.addEventListener('click', () => updateScores(p1, p2));
